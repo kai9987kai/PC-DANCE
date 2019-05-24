@@ -25,6 +25,9 @@ def about():
     window.title("PC Dance: About")
     Label1 = Label(window, text="PC Dance is a project to make the software and hardware of \n your computer  act like its dancing we currently have 2 options.\n First is a script that makes your keyboard lights flicker.\n Secondly a script that makes the disk drive open and shut constantly.")
     Label1.pack()
+    window.resizable(False, False)
+    window.geometry("+300+300")
+    window.iconbitmap('favicon.ico')
     window.mainloop()
 
 
